@@ -10,8 +10,7 @@ FILE_MAIN_OUTPUT=
 
 UNAME_S = $(shell uname -s)
 ifeq ($(OS),WINDOWS_NT)
-	FILE_MAIN_CODE+=win32_main.c
-	FILE_MAIN_OUTPUT+=win32_main.exe
+	$(error OS not supported by this makefile)
 else ifeq ($(UNAME_S),Linux)
 	FILE_MAIN_CODE+=linux_main.c
 	FILE_MAIN_OUTPUT+=linux_main
