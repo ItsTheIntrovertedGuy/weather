@@ -1,0 +1,7 @@
+#pragma once
+
+#define API_TOKEN "YOUR_TOKEN_HERE"
+
+#define LOCATION_LATITUDE  "LATITUDE.HERE"
+#define LOCATION_LONGITUDE  "LONGITUDE.HERE"
+#define UNITS "metric"
